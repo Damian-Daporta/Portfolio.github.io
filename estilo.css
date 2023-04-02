@@ -94,3 +94,47 @@ span {
     box-shadow: none;
 }
 
+.main img {
+    width: 350px;
+    border: 7px solid aqua;
+    height: 520px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/*ESTILOS DE SOBREMI*/
+
+.sobremi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.sobremi img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+.sobremiinfo {
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+.sobremiinfo h2 {
+    font-size: 2em;
+    color: #191c32;
+}
+
+.divider {
+    height: 4px;
+    width: 135px;
+    background-color: aqua;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.sobremi p {
+    margin-bottom: 1em;
+}
+
